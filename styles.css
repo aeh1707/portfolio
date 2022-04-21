@@ -21,6 +21,13 @@ body {
     color: #6070FF;
 }
 
+.navbar {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
 .navbar nav {
     font-weight: 500;
     font-size: 0.75rem;
@@ -28,11 +35,24 @@ body {
     color: #344563;
 }
 
+.social {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    padding: 0 15px;
+}
+
 nav li,
-.intro li {
+.social li {
     display: inline-block;
     list-style-type: none;
     margin: 0;
+}
+
+.social li {
+    margin-right: 20px;
 }
 
 h1 {
@@ -64,4 +84,13 @@ h1 + p::first-letter {
 .intro {
     background: no-repeat center/90% url(graphics/header-bg.svg);
     height: 100vh;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 69%;
+    height: 100vh;
+    margin: 0 auto;
 }
