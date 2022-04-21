@@ -62,6 +62,6 @@ h1 + p::first-letter {
 }
 
 .intro {
-    background: no-repeat center/90% url(graphics/header-bg.svg);
+    background: no-repeat center/85% url(graphics/header-bg.svg);
     height: 100vh;
 }
