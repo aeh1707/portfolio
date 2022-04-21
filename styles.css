@@ -1,3 +1,6 @@
+/* General Styles
+************************** */
+
 html {
     box-sizing: border-box;
   }
@@ -13,6 +16,9 @@ body {
     font-size: 20px;
     line-height: 28px;
 }
+
+/* Header Styles
+************************** */
 
 .logo {
     font-weight: 700;
