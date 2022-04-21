@@ -62,7 +62,7 @@ nav li,
 }
 
 .social li {
-    margin-right: 20px;
+    margin-right: 5px;
 }
 
 h1 {
@@ -70,10 +70,12 @@ h1 {
     font-weight: 700;
     line-height: 60px;
     color: #091E42;
+    margin: 0;
 }
 
 h1 + p {
     color: #344563;
+    margin: 0;
 }
 
 .navbar,
@@ -89,6 +91,7 @@ h1 + p::first-letter {
     line-height: 24px;
     text-transform: uppercase;
     color: #7F8CFF;
+    margin-top: 30px;
 }
 
 .intro {
