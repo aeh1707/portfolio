@@ -60,3 +60,8 @@ h1 + p::first-letter {
     text-transform: uppercase;
     color: #7F8CFF;
 }
+
+.intro {
+    background: no-repeat center/90% url(graphics/header-bg.svg);
+    height: 100vh;
+}
